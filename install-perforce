@@ -9,12 +9,10 @@ sudo chown perforce /perforce_depot
 sudo mkdir /var/log/perforce
 sudo chown perforce /var/log/perforce
 sudo apt-get install daemon
-#cd /etc/init.d
-cd /usr/lib/systemd/system/
-wget https://raw.githubusercontent.com/victorburgosgames/linux-perforce-installer/master/p4dserviceV2
-#chmod +x /etc/init.d/p4dservice
-#sudo update-rc.d p4dservice defaults
-chmod +x /usr/lib/systemd/system/p4d.service
-sudo systemctl enable /usr/lib/systemd/system/p4d.service
+cd /etc/init.d
+wget https://raw.githubusercontent.com/victorburgosgames/linux-perforce-installer/master/p4dservice
+chmod +x /etc/init.d/p4dservice
+sudo update-rc.d p4dservice defaults
+
 
 sudo reboot
