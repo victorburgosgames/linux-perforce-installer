@@ -1,13 +1,13 @@
 # About
 
-This script will install Perforce Server 2015.1 on a 64-bit linux host. It has only been tested on Ubuntu so far. If you are looking for an Ubuntu host, I recommend the $20/month tier at [DigitalOcean](https://www.digitalocean.com/?refcode=070b959bc226).
+This script will install Perforce Server 2017.2 on a 64-bit linux host. It has only been tested on Ubuntu so far. Go Vultr.
 
 # Usage
 
 In shell, run the following commands in your terminal. You don't need to download this repo, that is what the first line in the following code does.
 
 ```shell
-wget https://raw.githubusercontent.com/Allar/linux-perforce-installer/master/install-perforce
+wget https://raw.githubusercontent.com/victorburgosgames/linux-perforce-installer/master/install-perforce
 chmod +x install-perforce
 sudo ./install-perforce
 ```
