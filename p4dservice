@@ -9,7 +9,7 @@ PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin"
 
 . /lib/lsb/init-functions
 
-p4start="p4d"
+p4start="p4d -d"
 p4stop="p4 admin stop"
 p4user=perforce
 
