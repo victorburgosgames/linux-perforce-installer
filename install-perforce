@@ -8,6 +8,7 @@ sudo mkdir /perforce_depot
 sudo chown perforce /perforce_depot
 sudo mkdir /var/log/perforce
 sudo chown perforce /var/log/perforce
+sudo apt-get update
 sudo apt-get install daemon
 cd /etc/init.d
 wget https://raw.githubusercontent.com/victorburgosgames/linux-perforce-installer/master/p4dservice
